@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+canvas{
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+hr{
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+
+}
+
+#clrSelection{
+    
+    border: none;
+    width: 5vw;
+    border-radius: 2vw;
+    background-color: black;
+    color: white;
+}
+
+label{
+    font-size: 12px;
+}
+
+input{
+    border: none;
+}
+
+h1{
+    color: white;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+}
+
+button#clearButton{
+    position: absolute;
+    bottom: 5px;
+    width: 5vw;
+    border-radius: 2vw;
+    background-color: red;
+    color: white;
+}
+
+#downloadButton{
+    position: absolute;
+    bottom: 30px;
+    width: 5vw;
+    border-radius: 2vw;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+#fileName{
+    position: absolute;
+    bottom: 50px;
+    width: 5vw;
+    text-align: center;
+    color: white;
+    border-radius: 2vw;
+}
+
+#lineWidth{
+    width: 5vw;
+    border-radius: 2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+}
+.toolbar{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 100%;
+}
+
+label{
+    color: #f0f0f0;
+}
